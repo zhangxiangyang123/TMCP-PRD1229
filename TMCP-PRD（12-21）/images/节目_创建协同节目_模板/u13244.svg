@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="40px" height="50px" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <mask fill="white" id="clip2102">
+      <path d="M 30 14  C 30 24  21 30  15 40  C 10.8446406417679 33.0744010696132  5.2503636671986 28.0673589610093  2.20331559814008 22.3214426596232  C 0.850674774315394 19.7707244617528  0 17.0744010696132  0 14  C 0 8.80000000000001  3 0  15 0  C 27 0  30 8.80000000000001  30 14  Z " fill-rule="evenodd" />
+    </mask>
+    <filter x="1225px" y="156px" width="40px" height="50px" filterUnits="userSpaceOnUse" id="filter2103">
+      <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetInner" />
+      <feGaussianBlur stdDeviation="2.5" in="shadowOffsetInner" result="shadowGaussian" />
+      <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.698039215686274 0  " in="shadowComposite" />
+    </filter>
+    <g id="widget2104">
+      <path d="M 30 14  C 30 24  21 30  15 40  C 10.8446406417679 33.0744010696132  5.2503636671986 28.0673589610093  2.20331559814008 22.3214426596232  C 0.850674774315394 19.7707244617528  0 17.0744010696132  0 14  C 0 8.80000000000001  3 0  15 0  C 27 0  30 8.80000000000001  30 14  Z " fill-rule="nonzero" fill="#009dd9" stroke="none" transform="matrix(1 0 0 1 1229 160 )" />
+      <path d="M 30 14  C 30 24  21 30  15 40  C 10.8446406417679 33.0744010696132  5.2503636671986 28.0673589610093  2.20331559814008 22.3214426596232  C 0.850674774315394 19.7707244617528  0 17.0744010696132  0 14  C 0 8.80000000000001  3 0  15 0  C 27 0  30 8.80000000000001  30 14  Z " stroke-width="2" stroke="#ffffff" fill="none" transform="matrix(1 0 0 1 1229 160 )" mask="url(#clip2102)" />
+    </g>
+  </defs>
+  <g transform="matrix(1 0 0 1 -1225 -156 )">
+    <use xlink:href="#widget2104" filter="url(#filter2103)" />
+    <use xlink:href="#widget2104" />
+  </g>
+</svg>
